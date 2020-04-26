@@ -57,10 +57,15 @@
 	</build>
 		
 </project>
-<distributionManagement>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Artifactory-releases</name>
+        <url>http://18.222.78.157:8081/artifactory/libs-snapshot-local</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-2-38.us-east-2.compute.internal-snapshots</name>
+        <name>Artifactory-snapshots</name>
         <url>http://18.222.78.157:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
