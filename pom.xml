@@ -56,7 +56,7 @@
 		</plugins>
 	</build>
 		
-</project>
+
 	<distributionManagement>
     <repository>
         <id>central</id>
@@ -69,3 +69,4 @@
         <url>http://18.222.78.157:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
+</project>
