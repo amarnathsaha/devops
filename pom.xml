@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>wesee.amar</groupId>
-	<artifactId>amar</artifactId>
+	<groupId>deno</groupId>
+	<artifactId>color</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>amar</name>
+	<name>my</name>
 	<description>Artifact deploy</description>
 
 	<properties>
@@ -61,12 +61,12 @@
     <repository>
         <id>central</id>
         <name>Artifactory-releases</name>
-        <url>http://18.222.78.157:8081/artifactory/libs-snapshot-local</url>
+        <url>http://18.219.46.177:8081/artifactory/libs-snapshot-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>Artifactory-snapshots</name>
-        <url>http://18.222.78.157:8081/artifactory/libs-snapshot-local</url>
+        <url>http://18.219.46.177:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
