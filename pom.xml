@@ -57,16 +57,5 @@
 	</build>
 		
 
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Artifactory-releases</name>
-        <url>http://18.219.46.177:8081/artifactory/libs-snapshot-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Artifactory-snapshots</name>
-        <url>http://18.219.46.177:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
+	
 </project>
